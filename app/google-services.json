@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "55835501141",
+    "firebase_url": "https://udemyfirebase-b22cf.firebaseio.com",
+    "project_id": "udemyfirebase-b22cf",
+    "storage_bucket": "udemyfirebase-b22cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55835501141:android:dd1d3786181a56a0126adc",
+        "android_client_info": {
+          "package_name": "io.allofus.udemyfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55835501141-b1hp474p0r54vqgackgebs2748hdmeo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.allofus.udemyfirebase",
+            "certificate_hash": "7bedbdac419c540d256910e0478b4fb4e39ac972"
+          }
+        },
+        {
+          "client_id": "55835501141-0ir4sk71bh8kaa32dkm6se7kroolnl10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgwM3Z0mTDjquhcz7_99ZqYoc1Hp6Gm5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55835501141-0ir4sk71bh8kaa32dkm6se7kroolnl10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
