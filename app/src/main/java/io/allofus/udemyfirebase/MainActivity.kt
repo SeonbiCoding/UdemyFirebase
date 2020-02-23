@@ -1,9 +1,10 @@
 package io.allofus.udemyfirebase
 
-import android.media.MediaPlayer
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -11,7 +12,6 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -62,5 +62,10 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+    }
+
+    fun login(view: View) {
+        val intent = Intent(this@MainActivity, LoginActivity::class.java)
+        startActivity(intent)
     }
 }
