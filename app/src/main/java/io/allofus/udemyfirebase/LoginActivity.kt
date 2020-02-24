@@ -39,17 +39,16 @@ class LoginActivity : AppCompatActivity() {
         if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
             Toast.makeText(applicationContext, "dd", Toast.LENGTH_SHORT).show()
         } else {
-
             firebaseAuth?.signInWithEmailAndPassword(email, password)?.addOnCompleteListener {
                 if (it.isSuccessful) {
                     Toast.makeText(applicationContext, "You are login successful", Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this@LoginActivity, UserInfoActivity::class.java))
                 } else {
                     val error = it.exception?.message
                     Toast.makeText(applicationContext, "Error $error", Toast.LENGTH_SHORT).show()
                 }
             }
         }
-
     }
 
     fun reset(view: View) {
