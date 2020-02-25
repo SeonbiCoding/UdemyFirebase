@@ -72,4 +72,16 @@
         app:layout_constraintStart_toEndOf="@+id/btn_update"
         app:layout_constraintTop_toTopOf="@+id/btn_update" />
 
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:onClick="upload"
+        android:text="Upload Image"
+        app:layout_constraintBottom_toTopOf="@+id/btn_change"
+        app:layout_constraintEnd_toEndOf="@+id/btn_change"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_change" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
